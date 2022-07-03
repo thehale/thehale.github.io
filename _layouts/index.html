@@ -3,17 +3,23 @@ layout: default
 ---
 
 <div class="content">
+  
+  {% if paginator.page == 1 %}
+  <section class="posts-precursor">
+    {{ content }}
+  </section>
+  <h2 class="post-title">Recent Blog Posts</h2>
+  {% endif %}
+  
   {% include pagination-newer.html %}
-
-  {{ content }}
 
   {% for post in paginator.posts %}
   <article class="post-body">
-    <h2 class="post-title">
+    <h3 class="post-title">
       <a href="{{ post.url | relative_url }}">
         {{ post.title }}
       </a>
-    </h2>
+    </h3>
     {% include post-meta.html post=post %}
 
     {% if post.excerpt %}
