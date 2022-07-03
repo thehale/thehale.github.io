@@ -1,14 +1,16 @@
 <nav id="sidebar-icon-links">
-  {% if site.hydeout.repo %}
+  {% if site.thehale.social_links.github %}
     <a id="github-link"
-       class="icon" title="Github Project" aria-label="Github Project"
-       href="{{ site.hydeout.repo }}">
+       class="icon" title="Github Profile" aria-label="Github Profile"
+       href="https://github.com/{{ site.thehale.social_links.github }}">
       {% include svg/github.svg %}
     </a>
-    <a id="github-download-link"
-       class="icon" title="Download" aria-label="Download"
-       href="{{ site.hydeout.repo }}/archive/v{{ site.hydeout.version }}.zip">
-      {% include svg/download.svg %}
+  {% endif %}
+  {% if site.thehale.social_links.github %}
+    <a id="twitter-link"
+       class="icon" title="Twitter Profile" aria-label="Twitter Profile"
+       href="https://twitter.com/{{ site.thehale.social_links.twitter }}">
+      {% include svg/twitter.svg %}
     </a>
   {% endif %}
 
