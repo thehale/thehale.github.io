@@ -292,6 +292,14 @@ body {
   }
 }
 
+#sidebar-legal-links {
+  flex-flow: column nowrap;
+}
+#sidebar-legal-links a {
+  opacity: .5;
+  font-size: 0.75rem;
+}
+
 #sidebar nav > * {
   display: block;
   line-height: 1.75;
