@@ -47,6 +47,8 @@ _If you don't know how to convert decimal numbers into binary check out Khan
 Academy's [3 minute video](https://youtu.be/H4BstqvgBow) explaining the
 process._
 
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/H4BstqvgBow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 With those binary numbers in hand, the only step remaining to display the binary
 clock is to show each `1` as a bright dot, and each `0` as a dim dot (shown
 vertically for aesthetics).
