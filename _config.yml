@@ -23,7 +23,7 @@ author:
 thehale:
   social_links:
     github: thehale
-    twitter: jhale_dev
+    twitter: jhaledev
 
 paginate: 5
 paginate_path: "/posts-:num"
