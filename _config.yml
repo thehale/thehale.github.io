@@ -7,6 +7,7 @@ title: Joseph Hale
 tagline: "Software Engineer | Open-Source Contributor | ¡Hablo Español!"
 description: Software Engineer
 url: https://jhale.dev
+gravatar: https://s.gravatar.com/avatar/50a2a040ffc902c1c7fdce1abf01be2a
 baseurl: ""
 # the optional subpath of your site, e.g. "/blog"
 # NB: This applies to all pages in your Jekyll site.

@@ -74,6 +74,9 @@ body {
 #sidebar {
   header ~ *,
   header ~ nav,
+  #headshot {
+    display: none;
+  }
   p.lead {
     display: none;
   }
@@ -111,6 +114,12 @@ body {
   // Bigger title
   .site-title {
     font-size: 3.25rem;
+  }
+
+  // Show the headshot
+  #headshot {
+    display: flex;
+    justify-content: center;
   }
 
   // Show secondary nav content + lead
@@ -157,6 +166,13 @@ body {
     > *:last-child {
       margin-bottom: 0;
     }
+
+    // Show the headshot
+    #headshot {
+      display: flex;
+      justify-content: flex-start;
+    }
+
   }
 
   #sidebar {
