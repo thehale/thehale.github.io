@@ -3,12 +3,12 @@ layout: post
 title: "Introducing Binary Clock: Your Nerdy Mobile Timepiece"
 category:
  - Projects
- - BinaryClock
 tags:
- - react-native
- - android
+ - Binary Clock
+ - React Native
+ - Android
  - iOS
- - mobile-app
+ - Mobile App
 ---
 
 Meet [**Binary Clock**](https://github.com/thehale/BinaryClock), the new nerdy
@@ -17,12 +17,14 @@ app for telling time on Android/iOS!
 ![Screenshot of the Binary Clock app running on both an Android and iOS
 device](/assets/img/binaryclock/binary_clock_demo.gif)
 
-## Table of Contents
- - [How does it work?](#how-does-it-work)
- - [Why did you make it?](#why-did-you-make-it)
- - [Where can I get it?](#where-can-i-get-it)
- - [Can I contribute? If so, how?](#can-i-contribute-if-so-how)
- - [Enjoy!](#enjoy)
+## Table of Contents <!-- omit in toc -->
+- [How does it work?](#how-does-it-work)
+- [Why did you make it?](#why-did-you-make-it)
+    - [Nostalgia](#nostalgia)
+    - [Practice](#practice)
+- [Where can I get it?](#where-can-i-get-it)
+- [Can I contribute? If so, how?](#can-i-contribute-if-so-how)
+- [Enjoy!](#enjoy)
 
 ## How does it work?
 A binary clock works just like a standard digital clock, showing the current
