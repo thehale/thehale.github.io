@@ -85,7 +85,7 @@ remain available for everyone. For example, the [Linux operating
 system](https://github.com/torvalds/linux) uses a copyleft license which
 requires anyone who shares an improved version of Linux to also share their
 source-code. Additionally, if someone copied an algorithm from the Linux code to
-build a a video game, all the code for the video game would have to be
+build a video game, all the code for the video game would have to be
 open-sourced even though a video game has nothing to do with operating systems.
 
 #### Problems with Copyleft Licenses
