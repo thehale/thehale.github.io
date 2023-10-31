@@ -6,11 +6,18 @@
       {% include svg/github.svg %}
     </a>
   {% endif %}
-  {% if site.thehale.social_links.github %}
+  {% if site.thehale.social_links.twitter %}
     <a id="twitter-link"
        class="icon" title="Twitter Profile" aria-label="Twitter Profile"
        href="https://twitter.com/{{ site.thehale.social_links.twitter }}">
       {% include svg/twitter.svg %}
+    </a>
+  {% endif %}
+  {% if site.thehale.social_links.linkedin %}
+    <a id="linkedin-link"
+       class="icon" title="LinkedIn Profile" aria-label="LinkedIn Profile"
+       href="https://linkedin.com/in/{{ site.thehale.social_links.linkedin }}">
+      {% include svg/linkedin.svg %}
     </a>
   {% endif %}
 
