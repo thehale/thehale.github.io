@@ -24,7 +24,7 @@ The default settings for GitHub repositories block auto-merging any Pull Request
 
 To allow trusted actors (e.g. maintainers and priviledged GitHub Actions workflows) to enable auto-merge for individual pull requests, you need to globally enable the feature in your repository settings.
 
-1. Go to `https://github.com/USERNAME/REPOSITORY/settings`
+1. Go to `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/settings`
 2. Choose the **General** settings group
 3. Scroll down to the **Pull Requests** section
 4. Enable **Allow auto-merge**
@@ -32,6 +32,22 @@ To allow trusted actors (e.g. maintainers and priviledged GitHub Actions workflo
 ![A screenshot of the GitHub repository settings page, showing how to allow auto-merging pull requests](/assets/img/auto_merging_prs/allow_auto_merge.png)
 
 Remember, this setting is a repository-level *feature toggle*. Individual pull requests still will not be auto-merged unless explicitly flagged otherwise (which we handle [later in this guide](#automatically-enable-auto-merge-for-individual-pull-requests)).
+
+### GitHub Organizations: Allow GitHub Actions to create and approve pull requests
+
+Repositories under the scope of a GitHub Organization also need organization-level permissions to enable auto-approval/merging of pull requests.
+
+1. Go to `https://github.com/organizations/YOUR_ORGANIZATION/settings/actions`
+2. Scroll down to the **Workflow permissions** section
+3. Enable **Allow GitHub Actions to create and approve pull requests**
+
+    ![A screenshot of the GitHub organization Actions settings page, showing how to allow automated creation and approval of pull requests](/assets/img/auto_merging_prs/org_actions_prs_permissions.png)
+
+After enabling the setting at the organization level, double check that it is also enabled on the repository level.
+
+1. Go to `https://github.com/YOUR_ORGANIZATION/YOUR_REPOSITORY/settings/actions`
+2. Scroll down to the **Workflow permissions** section
+3. Enable **Allow GitHub Actions to create and approve pull requests**
 
 ## Configure branch protection rules 
 
