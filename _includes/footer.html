@@ -22,6 +22,7 @@
     {% endif %}
   </p>
 
+  {% if site.footer.show_chirpy_attribution %}
   <p>
     {%- capture _platform -%}
       <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
@@ -33,4 +34,5 @@
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
   </p>
+  {% endif %}
 </footer>

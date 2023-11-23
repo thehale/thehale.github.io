@@ -118,6 +118,9 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+footer:
+  show_chirpy_attribution: true  # The attribution in the site footer.
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
