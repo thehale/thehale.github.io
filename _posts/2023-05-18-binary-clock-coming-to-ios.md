@@ -13,6 +13,8 @@ tags:
 image:
   path: /assets/img/posts/binaryclock/binary-clock-to-ios.png
   alt: Binary Clock will soon be available on iOS!
+redirect_from: 
+ - /projects/2023/05/18/binary-clock-coming-to-ios.html
 ---
 
 Your nerdy timepiece will soon be available on the Apple App Store!

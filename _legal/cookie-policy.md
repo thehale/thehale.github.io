@@ -3,6 +3,8 @@ layout: page
 title: Cookie Policy
 sidebar_title: Cookies
 order: 3
+redirect_from:
+ - /cookie-policy.html
 ---
 
 A cookie is a small file, stored on a user's hard drive by a website. Its

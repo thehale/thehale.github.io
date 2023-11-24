@@ -7,6 +7,8 @@ tags:
  - Goals
 image:
   path: /assets/img/posts/2022_time_tracking/typical_week.jpg
+redirect_from:
+ - /2023/01/28/5-insights-from-tracking-every-second-of-2022.html
 ---
 
 I tracked every second of my life during 2022, and it unlocked personal insights
