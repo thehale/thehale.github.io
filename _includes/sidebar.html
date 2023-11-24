@@ -42,7 +42,7 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
     {% unless site.theme_mode %}
       <button type="button" class="mode-toggle btn" aria-label="Switch Mode">
         <i class="fas fa-adjust"></i>
@@ -72,6 +72,7 @@
 
       {% if url %}
         <a
+          class="contact-link"
           href="{{ url }}"
           aria-label="{{ entry.type }}"
           {% assign link_types = '' %}
@@ -93,6 +94,14 @@
         </a>
       {% endif %}
     {% endfor %}
+    <!-- Legal links -->
+    <div class="legal align-items-center d-flex flex-wrap w-100">
+      {% for item in site.legal %}
+        <div>
+          <a href="{{ item.url }}">{{ item.sidebar_title }}</a>
+        </div>
+      {% endfor %}
+    </div>
   </div>
   <!-- .sidebar-bottom -->
 </aside>

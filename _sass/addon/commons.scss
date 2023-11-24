@@ -839,7 +839,7 @@ $btn-mb: 0.5rem;
       }
     }
 
-    a {
+    a.contact-link {
       @extend %button;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
@@ -872,6 +872,13 @@ $btn-mb: 0.5rem;
       height: $btn-border-width;
       border-radius: 50%;
       margin-bottom: $btn-mb;
+    }
+    .legal a {
+      font-size: .8rem;
+      margin-right: .6rem;
+      &:hover {
+        @extend %link-hover;
+      }
     }
   } /* .sidebar-bottom */
 } /* #sidebar */

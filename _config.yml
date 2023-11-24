@@ -138,6 +138,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  legal:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
