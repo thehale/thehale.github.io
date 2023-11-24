@@ -3,6 +3,8 @@ layout: page
 title: Privacy Policy
 sidebar_title: Privacy
 order: 2
+redirect_from:
+ - /privacy-policy.html
 ---
 
 | _Last Updated_ | _Effective Date_ | _Version_ |

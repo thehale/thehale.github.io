@@ -10,6 +10,8 @@ tags:
  - Android
  - iOS
  - Mobile App
+redirect_from:
+ - /projects/2022/07/02/introducing-binary-clock.html
 ---
 
 Meet [**Binary Clock**](https://github.com/thehale/BinaryClock), the new nerdy

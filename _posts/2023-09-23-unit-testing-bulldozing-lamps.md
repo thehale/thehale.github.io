@@ -9,6 +9,8 @@ tags:
 image:
   path: /assets/img/posts/unit_testing_bulldozing_lamps/ram_destruction_square.jpg
   alt: Attempting to fix a small function by rerunning a large program is like fixing a lamp by bulldozing and rebuilding an entire city.
+redirect_from:
+ - /2023/09/23/unit-testing-bulldozing-lamps.html
 ---
 
 

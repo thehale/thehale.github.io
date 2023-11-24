@@ -6,6 +6,8 @@ category:
  - Git Authorship
 tags:
  - Open Source Licensing
+redirect_from:
+ - /projects/2022/12/23/git-authorship.html
 ---
 
 Meet [**Git Authorship**](https://github.com/thehale/BinaryClock), an

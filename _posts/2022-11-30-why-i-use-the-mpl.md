@@ -5,6 +5,7 @@ tags:
  - Open Source Licensing
  - Mozilla Public License
  - MPL-2.0
+redirect_from: /2022/11/30/why-i-use-the-mpl.html
 ---
 
 I believe an open-source software license should ensure that code can always be

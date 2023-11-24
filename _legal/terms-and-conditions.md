@@ -3,6 +3,8 @@ layout: page
 title: Terms and Conditions
 sidebar_title: Terms
 order: 1
+redirect_from:
+ - /terms-and-conditions.html
 ---
 
 | _Last Updated_ | _Effective Date_ | _Version_ |
