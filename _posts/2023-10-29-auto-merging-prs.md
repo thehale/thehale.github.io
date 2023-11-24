@@ -6,17 +6,13 @@ tags:
  - Security
  - Software Engineering
  - Project Management
+image:
+  path: /assets/img/posts/auto_merging_prs/merged_prs.png
+  alt: Unblock your maintainers, reduce friction for regular contributors, and automatically apply updates/security fixes from GitHub's Dependabot -- without compromising your standards for security or quality!
 ---
 
-<figure>
-    <img style="max-height: 50vh" src="/assets/img/posts/auto_merging_prs/merged_prs.png" alt="A screenshot showing a large number of automatically merged pull requests.">
-    <figcaption>
-    Unblock your maintainers, reduce friction for regular contributors, and automatically apply updates/security fixes from GitHub's Dependabot -- without compromising your standards for security or quality!
-    </figcaption>
-</figure>
 
-
-You can increase development velocity by automatically merging pull requests from individuals or bots you trust. Here's how
+You can increase development velocity by automatically merging pull requests from individuals or bots you trust. Here's how...
 
 ## Enable **Allow auto-merge** pull requests in repository settings
 
@@ -53,11 +49,13 @@ After enabling the setting at the organization level, double check that it is al
 
 Without proper protections, automatically merging code can result in broken projects and/or security disasters. You can guard against these scenarios with [branch protection rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule).
 
-> **Note**
->
-> Branch protection rules are free for public GitHub repositories. While you can create a branch protection rule for private GitHub repositories, it will only be enforced if the user/organization owning the repository subscribes to a paid plan (e.g. Pro, Team, Enterprise).
+> Creating and enforcing branch protection rules is free for **public** GitHub repositories.
+{: .prompt-info }
 
-Branch protection rule are configured in your repository settings
+> Branch protection rules can be freely created for **private** GitHub repositories, but will only be enforced if you or your company organization subscribe to a paid plan (e.g. Pro, Team, Enterprise).
+{: .prompt-warning }
+
+Branch protection rules are configured in your repository settings
 
 1. Go to `https://github.com/USERNAME/REPOSITORY/settings`
 2. Choose the **Branches** settings group
@@ -74,9 +72,9 @@ Branch protection rule are configured in your repository settings
 4. Under **Protect matching branches** enable all the rules you want to enforce before any merge can happen, automatic or not. I recommend the following:
     - Enable **Require a pull request before merging** and its subrule **Require approvals** with the number of required approvals set to `1`
     - Enable **Require status checks to pass before merging** and its subrule **Require branches to be up to date before merging**
-       > **Warning**
-       >
+       
        > Use the search box to find and select the names of the jobs to enforce as required status checks. Otherwise, this rule will do nothing.
+       {: .prompt-tip }
 
     ![A screenshot of creating a new branch protection rule in GitHub.](/assets/img/posts/auto_merging_prs/branch_protection_rule_settings.png)
 5. Scroll down to the bottom and press **Save changes**
@@ -107,8 +105,8 @@ jobs:
   # Reduce the maintenance burden for required status checks.
   # https://github.com/marketplace/actions/alls-green#why
   alls-green:  
-    # ^--- TODO: After the first run, set this job name as a 
-    # required status check in your branch protection rules.
+    # ^--- TODO: After the first run, set this job name as a required
+    #            status check in your branch protection rules.
     if: always()
     needs:  # <--- TODO: List all required jobs here.
      - lint
@@ -120,6 +118,7 @@ jobs:
         with:
           jobs: ${{ toJSON(needs) }}
 ```
+{: file='.github/workflows/YOUR_CI_SCRIPT.yml' }
 {% endraw %}
 
 After your updated CI workflow is run for the first time, you can reopen the branch protection rules and search for `alls-green` to set it as a required status check.
@@ -136,7 +135,6 @@ For example, the following workflow will automatically merge pull requests from 
 
 {% raw %}
 ```yaml
-# .github/workflows/automerge-dependabot-prs.yml
 name: Auto-merge Dependabot PRs
 
 on: pull_request
@@ -161,10 +159,11 @@ jobs:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 ```
+{: file='.github/workflows/automerge-dependabot-prs.yml' } 
 {% endraw %}
-> **Note**
->
+
 > The above workflow was adapted from the [GitHub Dependabot documentation](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/automating-dependabot-with-github-actions#enable-auto-merge-on-a-pull-request).
+{: .prompt-info }
 
 ### How the auto-merging workflow works
 
@@ -174,7 +173,7 @@ The above workflow is triggered `on` the opening of any [`pull_request`](https:/
 The workflow's sole job, `dependabot`, only runs `if` the user who opened the request (i.e. `github.actor`) is `'dependabot[bot]'`. You can [customize this guard with any valid GitHub Action expression](https://docs.github.com/en/actions/learn-github-actions/expressions). For example, to auto-merge pull requests from one of multiple trusted authors (e.g. `dependabot[bot]`  and a trusted maintainer with the username `octocat`) you can [provide a list](https://stackoverflow.com/a/70142531/14765128) of trusted author names:
 
 {% raw %}
-```
+```yaml
 if: ${{ contains(fromJson('["dependabot[bot]", "octocat"]'), github.actor) }}
 ```
 {% endraw %}

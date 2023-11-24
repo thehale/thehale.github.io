@@ -3,18 +3,19 @@ layout: post
 title: "Coming Soon: Binary Clock on iOS!!"
 category:
  - Projects
+ - Binary Clock
 tags:
  - Binary Clock
  - React Native
  - Android
  - iOS
  - Mobile App
+image:
+  path: /assets/img/posts/binaryclock/binary-clock-to-ios.png
+  alt: Binary Clock will soon be available on iOS!
 ---
 
 Your nerdy timepiece will soon be available on the Apple App Store!
-
-![Artistic drawing of the Binary Clock app coming to the Apple App
-Store](/assets/img/posts/binaryclock/binary-clock-to-ios.png)
 
 To date, my Binary Clock application has [only been offered on the Google Play
 Store](https://jhale.dev/projects/2022/07/02/introducing-binary-clock.html#where-can-i-get-it).

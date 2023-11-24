@@ -12,21 +12,6 @@ used everywhere. The [Mozilla Public
 License](https://www.mozilla.org/en-US/MPL/) does a great job of meeting that
 goal.
 
-## Table of Contents <!-- omit in toc -->
-- [What is an open-source software license?](#what-is-an-open-source-software-license)
-- [What types of open-source software licenses are there?](#what-types-of-open-source-software-licenses-are-there)
-  - [Permissive Licenses](#permissive-licenses)
-    - [Benefits of Permissive Licenses](#benefits-of-permissive-licenses)
-    - [Problems with Permissive Licenses](#problems-with-permissive-licenses)
-  - [Copyleft Licenses](#copyleft-licenses)
-    - [Benefits of Copyleft Licenses](#benefits-of-copyleft-licenses)
-    - [Problems with Copyleft Licenses](#problems-with-copyleft-licenses)
-- [What type of license is the Mozilla Public License?](#what-type-of-license-is-the-mozilla-public-license)
-- [Why do you prefer the Mozilla Public License for your open-source projects?](#why-do-you-prefer-the-mozilla-public-license-for-your-open-source-projects)
-- [How do I use the Mozilla Public License for my open-source projects?](#how-do-i-use-the-mozilla-public-license-for-my-open-source-projects)
-- [Where are good places to learn more?](#where-are-good-places-to-learn-more)
-
-
 ## What is an open-source software license?
 By default, you are the only person allowed to use any code you write. That's
 because you [automatically own a
@@ -178,6 +163,7 @@ recommend the following sites:
 Of course, you should always seek any legal advice from a lawyer who specializes
 in copyright law.
 
-*Note: While I am knowledgeable about open-source software licensing, I am not
+> While I am knowledgeable about open-source software licensing, I am not
 an attorney. Thus, my comments cannot be considered legal advice under any
-circumstances.*
+circumstances.
+{: .prompt-danger }
