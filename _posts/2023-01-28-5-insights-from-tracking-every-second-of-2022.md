@@ -5,6 +5,8 @@ tags:
  - Time Tracking
  - Personal Development
  - Goals
+image:
+  path: /assets/img/posts/2022_time_tracking/typical_week.jpg
 ---
 
 I tracked every second of my life during 2022, and it unlocked personal insights
@@ -21,15 +23,6 @@ While tracking my time like this immediately helped me use my time more
 efficiently (I did *not* want to press the "wasted time" button), the most
 significant insights discussed below followed a review of the aggregate data for
 the whole year.
-
-## Table of Contents <!-- omit in toc -->
-- [Insight #1: Developing expertise takes time](#insight-1-developing-expertise-takes-time)
-- [Insight #2: Work hard, but remember to relax](#insight-2-work-hard-but-remember-to-relax)
-- [Insight #3: Success does not require sacrificing sleep](#insight-3-success-does-not-require-sacrificing-sleep)
-- [Insight #4: Serving in the community is invigorating](#insight-4-serving-in-the-community-is-invigorating)
-- [Insight #5: Use travel to enable meaningful interactions](#insight-5-use-travel-to-enable-meaningful-interactions)
-- [Conclusion](#conclusion)
-
 
 ## Insight #1: Developing expertise takes time
 
@@ -49,9 +42,7 @@ activities" include time spent in lectures and completing homework in addition
 to my traditional part-time employment as a software engineer.
 
 ![](/assets/img/posts/2022_time_tracking/barrett_graduation.jpg)
-> Receiving my diploma for a Bachelors of Science in Software Engineering at the
-> convocation ceremony for Barrett, The Honors College at Arizona State
-> University in May 2022.
+_Receiving my diploma for a Bachelors of Science in Software Engineering at the convocation ceremony for Barrett, The Honors College at Arizona State University in May 2022._
 
 Fortunately, I accomplished a lot with those thousands of hours of work:
  - Completed an [Honors Thesis](https://github.com/thehale/DIY-Smartcube) where
@@ -112,9 +103,8 @@ night**. Furthermore, I consistently slept well throughout the year instead of
 "catching up" during breaks like I did for activities. I also spent an
 additional 341 hours on other basic needs like meals, hygiene, and exercise.
 
-![](/assets/img/posts/2022_time_tracking/2022%20Weekly%20Sleep%20Trends.png)
-> The average number of hours I slept each night in 2022, plotted on a week by
-> week basis.
+![](/assets/img/posts/2022_time_tracking/sleep_trends.png)
+_The average number of hours I slept each night in 2022, plotted on a week by week basis._
 
 The lesson here? **Success does not require sacrificing a good night's sleep.**
 
@@ -135,8 +125,7 @@ During 2022 I had the privilege of volunteering in multiple capacities:
    in various religious and personal capacities.
 
 ![](/assets/img/posts/2022_time_tracking/arizona_saints_chorale.jpg)
-> Singing in the Arizona Saints Chorale. I am in the bass section, standing in
-> the top right corner of the image wearing a green tie.
+_Singing in the Arizona Saints Chorale. I am in the bass section, standing in the top right corner wearing a green tie._
 
 In total, I spent 244 hours and 50 minutes on various forms of community service
 during 2022 -- 4.7 hours per week.

@@ -6,16 +6,11 @@ tags:
  - Unit Testing
  - Software Engineering
  - Testing
+image:
+  path: /assets/img/posts/unit_testing_bulldozing_lamps/ram_destruction_square.jpg
+  alt: Attempting to fix a small function by rerunning a large program is like fixing a lamp by bulldozing and rebuilding an entire city.
 ---
 
-<figure>
-    <img style="max-height: 50vh" src="/assets/img/posts/unit_testing_bulldozing_lamps/wrecking_ball_lamp.jpg" alt="A lone house lamp stands in contrast to a large wrecking ball destroying a city of skyscapers.">
-    <figcaption>
-    Attempting to fix a small function by rerunning a large program is like repeatedly bulldozing and rebuilding an entire city to fix one lone lamp that won't turn on. <br/><br/> There is a better way...
-    </figcaption>
-</figure>
-
-<br/>
 
 ## A Short Story of Debugging Desperation
 
@@ -36,21 +31,18 @@ By pulling the faulty function into a separate program, Hoppy was doing the digi
 [Creating a small progam](https://stackoverflow.com/help/minimal-reproducible-example) provides [insights into the workings of a larger program.](https://ericlippert.com/2014/03/05/how-to-debug-small-programs/#:~:text=these%20techniques%20then%20scale%20up%20to%20finding%20bugs%20in%20non-trivial%20programs.) In a recent pair programming session, a coworker showed me a large list of Python objects which would specify some complex database constraints. He asked if putting the constant at the bottom of the file would cause an error. Initially unsure, I wrote the following small program:
 
 ```python
-# fruit.py
-
 class Apple:
     types = APPLE_TYPES
     
 APPLE_TYPES = ["gala", "granny smith"]
 ```
+{: file='fruit.py' }
 
 Within 30 seconds of the question, we received our answer: `NameError: name 'APPLE_TYPES' is not defined`. 
 
 Interestingly, because the program is so short, we identified a different approach within a minute which permits the constant at the end of the file.
 
 ```python
-# fruit.py
-
 class Apple:
     types: list
     
@@ -59,6 +51,7 @@ class Apple:
     
 APPLE_TYPES = ["gala", "granny smith"]
 ```
+{: file='fruit.py' }
 
 These small programs, written in less than two minutes,  reveal a big insight about the Python language: assignments to class variables resolve at the time of class *definition*, while assignments in an `__init__` method resolve at the time of class *instantiation*.
 

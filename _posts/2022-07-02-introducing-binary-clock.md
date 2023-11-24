@@ -3,6 +3,7 @@ layout: post
 title: "Introducing Binary Clock: Your Nerdy Mobile Timepiece"
 category:
  - Projects
+ - Binary Clock
 tags:
  - Binary Clock
  - React Native
@@ -16,15 +17,6 @@ app for telling time on Android/iOS!
 
 ![Screenshot of the Binary Clock app running on both an Android and iOS
 device](/assets/img/posts/binaryclock/binary_clock_demo.gif)
-
-## Table of Contents <!-- omit in toc -->
-- [How does it work?](#how-does-it-work)
-- [Why did you make it?](#why-did-you-make-it)
-    - [Nostalgia](#nostalgia)
-    - [Practice](#practice)
-- [Where can I get it?](#where-can-i-get-it)
-- [Can I contribute? If so, how?](#can-i-contribute-if-so-how)
-- [Enjoy!](#enjoy)
 
 ## How does it work?
 A binary clock works just like a standard digital clock, showing the current
@@ -45,11 +37,11 @@ convert the numbers `08`, `47`, and `13` to binary.
 |       13       |    001101     |
 
 
-_If you don't know how to convert decimal numbers into binary check out Khan
+> If you don't know how to convert decimal numbers into binary check out Khan
 Academy's [3 minute video](https://youtu.be/H4BstqvgBow) explaining the
-process._
-
-> <iframe width="560" height="315" src="https://www.youtube.com/embed/H4BstqvgBow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+process. 
+> <iframe width="100%" height="315" src="https://www.youtube.com/embed/H4BstqvgBow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{: .prompt-tip }
 
 With those binary numbers in hand, the only step remaining to display the binary
 clock is to show each `1` as a bright dot, and each `0` as a dim dot (shown

@@ -3,6 +3,7 @@ layout: post
 title: "Introducing Git Authorship: Easy Visualizations of Code Authors"
 category:
  - Projects
+ - Git Authorship
 tags:
  - Open Source Licensing
 ---
@@ -13,12 +14,6 @@ repositories!
 
 ![Screenshot of the Git Authorship tool for the cubing.js
 project](/assets/img/posts/git-authorship/git_authorship_demo.gif)
-
-## Table of Contents <!-- omit in toc -->
-- [Why is tracking code authorship important?](#why-is-tracking-code-authorship-important)
-- [How does Git Authorship help with tracking code authorship?](#how-does-git-authorship-help-with-tracking-code-authorship)
-- [How can I start using Git Authorship?](#how-can-i-start-using-git-authorship)
-
 
 ## Why is tracking code authorship important?
 For legal reasons.
