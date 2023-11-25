@@ -29,7 +29,7 @@ To allow trusted actors (e.g. maintainers and priviledged GitHub Actions workflo
 
 ![A screenshot of the GitHub repository settings page, showing how to allow auto-merging pull requests](/assets/img/posts/auto_merging_prs/allow_auto_merge.png)
 
-Remember, this setting is a repository-level *feature toggle*. Individual pull requests still will not be auto-merged unless explicitly flagged otherwise (which we handle [later in this guide](#automatically-enable-auto-merge-for-individual-pull-requests)).
+Remember, this setting is a repository-level *feature toggle*. Individual pull requests still will not be auto-merged unless explicitly flagged otherwise (which we handle [later in this guide](#automatically-enable-auto-merge-for-pull-requests-from-trusted-authors)).
 
 ### GitHub Organizations: Allow GitHub Actions to create and approve pull requests
 
