@@ -118,10 +118,8 @@ During 2022 I had the privilege of volunteering in multiple capacities:
    mentor](https://asu.campuslabs.com/engage/organization/barrett-poly-mentors)
    for incoming first-year students to help them learn the ropes of college and
    connect them to campus resources.
- - In the [Arizona Saints
-   Chorale](https://www.facebook.com/profile.php?id=100069341468507), a
-   community choir which raised thousands of dollars for local charities, I sang
-   vocal bass.
+ - In the [Arizona Saints Chorale](https://saintschorale.org), a community choir
+   which raised thousands of dollars for local charities, I sang vocal bass.
  - At [The Church of Jesus Christ of Latter-Day
    Saints](https://www.churchofjesuschrist.org/?lang=eng), I served my neighbors
    in various religious and personal capacities.
