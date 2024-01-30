@@ -120,6 +120,22 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+# By default, AI bots scrape website content to train/improve their models.
+#
+# These settings configure the `robots.txt` file to request exclusion of 
+# website content from certain AI training datasets.
+#
+# Learn more: https://www.eff.org/deeplinks/2023/12/no-robotstxt-how-ask-chatgpt-and-google-bard-not-use-your-website-training
+ai_bot_scraping:
+  chatgpt:  # by OpenAI
+    # Request exclusion of pages starting with the following path.
+    # A blank value allows inclusion in AI training sets.
+    disallow: /
+  bard:  # by Google
+    # Request exclusion of pages starting with the following path.
+    # A blank value allows inclusion in AI training sets.
+    disallow: /
+
 footer:
   show_chirpy_attribution: true  # The attribution in the site footer.
 

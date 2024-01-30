@@ -2,9 +2,34 @@
 permalink: /robots.txt
 # The robots rules
 ---
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
 
 User-agent: *
 
 Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+
+{% if site.ai_bot_scraping.chatgpt.disallow %}
+# OpenAI ChatGPT
+User-agent: GPTBot
+Disallow: {{ site.ai_bot_scraping.chatgpt.disallow }}
+{% endif %}
+{% if site.ai_bot_scraping.bard.disallow %}
+# Google Bard
+User-agent: Google-Extended
+Disallow: {{ site.ai_bot_scraping.bard.disallow }}
+{% endif %}
