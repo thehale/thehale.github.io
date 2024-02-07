@@ -52,6 +52,9 @@ google_site_verification: # fill in to your verification string
 google_analytics:
   id: # fill in your Google Analytics ID
 
+cloudflare_analytics:
+  token: # fill in your Cloudflare Web Analytics token (from JS Snippet installation)
+
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
