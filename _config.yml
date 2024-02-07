@@ -56,7 +56,7 @@ google_analytics:
   id: "G-HMQJEDYV7F" # fill in your Google Analytics ID
 
 cloudflare_analytics:
-  token: # fill in your Cloudflare Web Analytics token (from JS Snippet installation)
+  token: 7b847a939a8a4f34969238ed77bcf64b # fill in your Cloudflare Web Analytics token (from JS Snippet installation)
 
 # Prefer color scheme setting.
 #
