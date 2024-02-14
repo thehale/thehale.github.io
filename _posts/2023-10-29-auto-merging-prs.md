@@ -7,7 +7,7 @@ tags:
  - Software Engineering
  - Project Management
 image:
-  path: /assets/img/posts/auto_merging_prs/merged_prs.png
+  path: /assets/img/posts/auto_merging_prs/merged_prs.jpg
   alt: Unblock your maintainers, reduce friction for regular contributors, and automatically apply updates/security fixes from GitHub's Dependabot -- without compromising your standards for security or quality!
 redirect_from:
  - /2023/10/29/auto-merging-prs.html
