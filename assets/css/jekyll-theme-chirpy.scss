@@ -4,3 +4,9 @@
 @import 'main';
 
 /* append your custom style below */
+
+details {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: var(--highlight-bg-color);
+}
