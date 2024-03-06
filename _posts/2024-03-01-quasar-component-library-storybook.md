@@ -253,7 +253,7 @@ Create a `DatePicker.vue`
 </template>
 
 <script lang="ts">
-import { QBtn, QDate } from "quasar"
+import { QBtn, QCard, QDate } from "quasar"
 
 export function dashedDate(date: Date) {
 	return date.toISOString().slice(0, 10)
@@ -263,6 +263,7 @@ export default {
 	emits: ["update:modelValue"],
 	components: {
 		QBtn,
+    QCard,
 		QDate,
 	},
 	props: {
@@ -280,6 +281,8 @@ export default {
 </script>
 ```
 {: file='lib/components/DatePicker.vue' }
+
+Notice that we import all Quasar components used within the template. This differs slightly from a Quasar CLI managed project where all those components are available globally.
 
 ### Render and test Quasar components in Storybook.js
 
@@ -345,6 +348,30 @@ const preview: Preview = {
   …
 ```
 {: file='.storybook/preview.ts' }
+
+### How to use Quasar's Sass variables in a custom component library
+
+[Quasar has tons of Sass variables](https://quasar.dev/style/sass-scss-variables) which control much of the look and feel of a Quasar app. Officially these variables are only available to Quasar CLI managed apps, but supporting them in Vue CLI managed projects (like a component library) only requires configuring a single Vite plugin.
+
+Install the Quasar Vite plugin
+```bash
+npm install --save-dev @quasar/vite-plugin
+```
+
+Add the Quasar Vite plugin to your `vite.config.ts`. Make sure to set the Quasar plugin's `sassVariables` option to the path to the file containing your overrides of Quasar's variables.
+```diff
+import vue from "@vitejs/plugin-vue";
++ import { quasar, transformAssetUrls } from "@quasar/vite-plugin";
+…
+export default defineConfig({
+  plugins: [
+-    vue(),
++    vue({ template: { transformAssetUrls } }),
++    quasar({ sassVariables: "lib/styles/quasar.variables.sass" }),
+    
+```
+{: file='vite.config.ts' }
+
 
 ## Conclusion
 
