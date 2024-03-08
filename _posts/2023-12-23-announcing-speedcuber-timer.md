@@ -21,8 +21,8 @@ image:
 Finally, a native Android/iOS Rubik's Cube solving timer/trainer with broad smartcube support!
 
 The app is free to download and use. Try it out today!
- - Apple App Store: https://apps.apple.com/us/app/the-speedcuber-timer/id6468855171
- - Google Play: https://play.google.com/store/apps/details?id=org.speedcuber.timer
+ - Apple App Store: [https://apps.apple.com/us/app/the-speedcuber-timer/id6468855171](https://apps.apple.com/us/app/the-speedcuber-timer/id6468855171)
+ - Google Play: [https://play.google.com/store/apps/details?id=org.speedcuber.timer](https://play.google.com/store/apps/details?id=org.speedcuber.timer)
 
 Speedcuber Timer has all the standard features of a typical cubing app:
  - Time your solves for any WCA Event, and tons of unofficial events too
