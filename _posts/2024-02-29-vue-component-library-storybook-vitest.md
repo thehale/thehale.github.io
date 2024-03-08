@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How to create a custom Vue Component Library with robust testing via Storybook and Vitest
+categories:
+ - How-To Guides
+ - Vue
 tags:
  - Software Engineering
  - Test Driven Development
