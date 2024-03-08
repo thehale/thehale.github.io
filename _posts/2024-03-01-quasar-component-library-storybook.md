@@ -1,6 +1,9 @@
 ---
 layout: post
 title: How to use Quasar in a custom Vue Component Library with Storybook
+categories:
+ - How-To Guides
+ - Vue
 tags:
  - Software Engineering
  - Test Driven Development
