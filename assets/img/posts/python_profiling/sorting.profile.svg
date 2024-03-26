@@ -1,0 +1,480 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="415" height="312"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<style type="text/css">
+    .func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<a xlink:href="https://jhale.dev/posts/python-profiling">
+<svg class="func_g" x="0.0" y="120" width="413.9425247443223" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 99.99% (1 1 2.1675e-05 0.007443303)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="96" width="63.023365286941726" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 15.43% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="72" width="56.94799104930004" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 13.96% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="48" width="49.605262337772594" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:290:randrange 12.19% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randrange</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="24" width="34.2594248189294" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:237:_randbelow_with_getrandbits 8.50% (250 250 0.000418002 0.0006324890000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_randbelow_with_getrandbits</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="0" width="8.278546610079559" height="23"><g>
+    <title>~:0:&lt;method 'bit_length' of 'int' objects&gt; 2.24% (250 250 0.00016644 0.00016644)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'bit_length' of 'int' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="9.278546610079559" y="0" width="1.6784807076093036" height="23"><g>
+    <title>~:0:&lt;method 'getrandbits' of '_random.Random' objects&gt; 0.65% (256 256 4.8047e-05 4.8047e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'getrandbits' of '_random.Random' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="64.02336528694173" y="96" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:23:&lt;listcomp&gt; 0.12% (1 1 9.284000000000001e-06 9.284000000000001e-06)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 165, 95)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="64.54092132351934" y="96" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:24:&lt;listcomp&gt; 0.14% (1 1 1.0298e-05 1.0298e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="65.11500491514755" y="96" width="263.89782296173166" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:27:bubble_sort_iterative 63.83% (1 1 0.004751223000000001 0.004751778)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">bubble_sort_iterative</text>
+</g></svg>
+<svg class="func_g" x="330.01282787687927" y="96" width="82.72137856791488" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 20.17% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="330.01282787687927" y="72" width="46.17453769079343" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 11.37% (305 1 0.0002682973988063135 0.0008462241322068796)</title>
+    <rect height="100%" width="100%" fill="rgb(44, 255, 210)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="330.01282787687927" y="48" width="17.252827103529345" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 4.40% (118 0 0.00010380994223699696 0.0003274220274769278)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="348.2656549804086" y="48" width="12.358935729698175" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 3.22% (59 59 0.00016565853392311086 0.00023963464929254683)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="348.2656549804086" y="24" width="1" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.34% (396 396 2.543328521769674e-05 2.543328521769674e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="349.68348676567564" y="24" width="1" height="23"><g>
+    <title>~:0:&lt;method 'extend' of 'list' objects&gt; 0.13% (118 118 9.647934342260665e-06 9.647934342260665e-06)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'extend' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="350.2213310848636" y="24" width="1.168277479346521" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 0.52% (396 396 3.889489580947857e-05 3.889489580947857e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="361.6245907101068" y="48" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.15% (177 177 1.0870056631091483e-05 1.0870056631091483e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 140, 79)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="377.18736556767266" y="72" width="33.5262470035493" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 8.32% (153 153 0.00042814544333498347 0.0006193371432793258)</title>
+    <rect height="100%" width="100%" fill="rgb(99, 206, 42)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="377.18736556767266" y="48" width="2.664394486065786" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 0.88% (1024 1024 6.573247340248689e-05 6.573247340248689e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="380.8517600537385" y="48" width="1" height="23"><g>
+    <title>~:0:&lt;method 'extend' of 'list' objects&gt; 0.33% (305 305 2.4935142358263586e-05 2.4935142358263586e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 190, 110)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'extend' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="382.24182182134314" y="48" width="4.603925742207511" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 1.35% (1024 1024 0.00010052408418359183 0.00010052408418359183)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="411.713612571222" y="72" width="1" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.38% (459 459 2.8093724513795e-05 2.8093724513795e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(85, 218, 84)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="168" width="22.302397501240538" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:237:_randbelow_with_getrandbits 5.62% (250 250 0.000418002 0.0006324890000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 215, 125)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_randbelow_with_getrandbits</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="192" width="22.30239750124054" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:290:randrange 5.62% (250 250 0.000418002 0.0006324890000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randrange</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="216" width="22.30239750124054" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 3.70% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="240" width="22.30239750124054" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="0.0" y="264" width="22.302397501240538" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="23.302397501240538" y="168" width="14.345837518843192" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:290:randrange 3.70% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 90, 49)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randrange</text>
+</g></svg>
+<svg class="func_g" x="23.302397501240538" y="192" width="14.345837518843192" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 3.70% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="23.302397501240538" y="216" width="14.345837518843192" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="23.302397501240538" y="240" width="14.345837518843192" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="38.64823502008374" y="168" width="6.342728711527451" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="38.64823502008374" y="192" width="6.342728711527451" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="38.64823502008374" y="216" width="6.342728711527451" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="45.99096373161119" y="168" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.29% (1 1 2.1675e-05 0.007443303)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="47.19928203113939" y="168" width="5.075374237641675" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="47.19928203113939" y="192" width="5.075374237641675" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="53.274656268781065" y="168" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:23:&lt;listcomp&gt; 0.12% (1 1 9.284000000000001e-06 9.284000000000001e-06)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="53.274656268781065" y="192" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.12% (1 1 9.284000000000001e-06 9.284000000000001e-06)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="53.79221230535868" y="168" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:24:&lt;listcomp&gt; 0.14% (1 1 1.0298e-05 1.0298e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="53.79221230535868" y="192" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.14% (1 1 1.0298e-05 1.0298e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="54.366295896986884" y="168" width="263.8668833236123" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:27:bubble_sort_iterative 63.82% (1 1 0.004751223000000001 0.004751778)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">bubble_sort_iterative</text>
+</g></svg>
+<svg class="func_g" x="54.366295896986884" y="192" width="263.8668833236123" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 63.82% (1 1 0.004751223000000001 0.004751778)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="319.2331792205992" y="168" width="23.850661590412255" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.99% (1 499 0.00044577500000000003 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 240, 141)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="319.2331792205992" y="192" width="11.949234299903663" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="332.18241352050285" y="192" width="10.901427290508586" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="332.18241352050285" y="216" width="5.201620424766594" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="338.3840339452695" y="216" width="4.699806865741991" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="344.0838408110115" y="168" width="37.93115153081525" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 9.38% (249 249 0.0006983530000000001 0.001010208)</title>
+    <rect height="100%" width="100%" fill="rgb(255, 115, 64)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="344.0838408110115" y="192" width="37.93115153081525" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 9.38% (249 249 0.0006983530000000001 0.001010208)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="344.0838408110115" y="216" width="19.286325211240257" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="364.3701660222517" y="216" width="17.644826319574996" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="364.3701660222517" y="240" width="8.715484781553531" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="374.0856508038052" y="240" width="7.929341538021463" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="383.01499234182666" y="168" width="1.5854945519639503" height="23"><g>
+    <title>~:0:&lt;built-in method builtins.len&gt; 0.62% (749 749 4.6379000000000004e-05 4.6379000000000004e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(182, 182, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;built-in method builtins.len&gt;</text>
+</g></svg>
+<svg class="func_g" x="383.0459319799461" y="192" width="1.5545549138445436" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 0.62% (748 748 4.5824e-05 4.5824e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="383.0459319799461" y="216" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="384.37706475445964" y="216" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="384.37706475445964" y="240" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="385.0145681010908" y="240" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="385.6004868937906" y="168" width="4.977036360808099" height="23"><g>
+    <title>~:0:&lt;method 'append' of 'list' objects&gt; 1.44% (1671 1671 0.000107217 0.000107217)</title>
+    <rect height="100%" width="100%" fill="rgb(166, 166, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'append' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="385.6004868937906" y="192" width="4.977036360808099" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 1.44% (1671 1671 0.000107217 0.000107217)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="385.6004868937906" y="216" width="4.977036360808099" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 9.38% (249 249 0.0006983530000000001 0.001010208)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="385.6004868937906" y="240" width="2.1145265076165574" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="388.71501340140713" y="240" width="1.8625098531915403" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="388.71501340140713" y="264" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="390.2066159746385" y="264" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="168" width="8.278546610079559" height="23"><g>
+    <title>~:0:&lt;method 'bit_length' of 'int' objects&gt; 2.24% (250 250 0.00016644 0.00016644)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'bit_length' of 'int' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="192" width="8.278546610079559" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:237:_randbelow_with_getrandbits 2.24% (250 250 0.00016644 0.00016644)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_randbelow_with_getrandbits</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="216" width="8.278546610079559" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:290:randrange 5.62% (250 250 0.000418002 0.0006324890000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randrange</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="240" width="8.278546610079559" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 3.70% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="264" width="8.278546610079559" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="391.5775232545987" y="288" width="8.278546610079559" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="400.913545120356" y="168" width="1.2673458767433052" height="23"><g>
+    <title>~:0:&lt;method 'extend' of 'list' objects&gt; 0.55% (498 498 4.0672e-05 4.0672e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(214, 214, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'extend' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="400.913545120356" y="192" width="1.2673458767433052" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 0.55% (498 498 4.0672e-05 4.0672e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="400.913545120356" y="216" width="1.2673458767433052" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 9.38% (249 249 0.0006983530000000001 0.001010208)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="400.913545120356" y="240" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="402.0950184139361" y="240" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="402.0950184139361" y="264" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="402.6608471524614" y="264" width="1" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="168" width="1.6784807076093036" height="23"><g>
+    <title>~:0:&lt;method 'getrandbits' of '_random.Random' objects&gt; 0.65% (256 256 4.8047e-05 4.8047e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(198, 198, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'getrandbits' of '_random.Random' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="192" width="1.6784807076093036" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:237:_randbelow_with_getrandbits 0.65% (256 256 4.8047e-05 4.8047e-05)</title>
+    <rect height="100%" width="100%" fill="rgb(197, 197, 197)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">_randbelow_with_getrandbits</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="216" width="1.6784807076093036" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:290:randrange 5.62% (250 250 0.000418002 0.0006324890000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(232, 232, 232)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randrange</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="240" width="1.6784807076093036" height="23"><g>
+    <title>/jhale.dev/posts/.pyenv/versions/3.9.18/lib/python3.9/random.py:334:randint 3.70% (250 250 0.000275276 0.000907765)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">randint</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="264" width="1.6784807076093036" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:22:&lt;listcomp&gt; 1.77% (250 250 0.000131715 0.00103948)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;listcomp&gt;</text>
+</g></svg>
+<svg class="func_g" x="403.1808909970993" y="288" width="1.6784807076093036" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 1.46% (1 1 0.000108981 0.0011484610000000001)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="405.8593717047086" y="168" width="8.140628295291425" height="23"><g>
+    <title>~:0:&lt;method 'pop' of 'list' objects&gt; 2.20% (1671 1671 0.000163966 0.000163966)</title>
+    <rect height="100%" width="100%" fill="rgb(230, 230, 255)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">&lt;method 'pop' of 'list' objects&gt;</text>
+</g></svg>
+<svg class="func_g" x="405.8593717047086" y="192" width="8.140628295291425" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:43:merge 2.20% (1671 1671 0.000163966 0.000163966)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge</text>
+</g></svg>
+<svg class="func_g" x="405.8593717047086" y="216" width="8.140628295291425" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 9.38% (249 249 0.0006983530000000001 0.001010208)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="405.8593717047086" y="240" width="3.7630175564309445" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="410.6223892611396" y="240" width="3.377610738860481" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+<svg class="func_g" x="410.6223892611396" y="264" width="1.281094486158442" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:20:sort_a_random_list 0.11% (1 1 8.152000000000001e-06 0.0015018070000000002)</title>
+    <rect height="100%" width="100%" fill="rgb(225, 225, 225)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">sort_a_random_list</text>
+</g></svg>
+<svg class="func_g" x="412.90348374729797" y="264" width="1.0965162527020391" height="23"><g>
+    <title>/jhale.dev/posts/python-profiling/sample.py:41:merge_sort 5.88% (498 2 0.00043762300000000005 0.001380286)</title>
+    <rect height="100%" width="100%" fill="rgb(190, 190, 190)" rx="2" ry="2" />
+    <text alignment-baseline="central" x="4.0" y="12.0" font-size="12px" fill="rgb(0,0,0)">merge_sort</text>
+</g></svg>
+</a>
+</svg>
