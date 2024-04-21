@@ -67,6 +67,7 @@ Trust has always taken time to earn. Since the `xz` attack, trust may take longe
 - On GitHub, [personalize your profile](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/personalizing-your-profile), including adding a [profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme). This helps people see your broader interests and goals, increasing trust that you are a real person.
 - Where available, engage constructively with the project's broader community (e.g. chat on Discord/Slack). Hearing from you in different spaces can increase confidence in your authenticity.
 - Publish an open-source project of your own. This gives you valuable experience in the mechanics of open-source work and provides more evidence of your sincerity. You don't have to create anything fancy or novel. If you need inspiration, check out [`build-your-own-x`](https://github.com/codecrafters-io/build-your-own-x).
+- Disclose any use of Generative AI in producing your contribution (e.g. ChatGPT). Maintainers are currently receiving too many "AI spam PRs" and may reject contributions they suspect of being secretly AI generated. Being forthcoming about your use of AI (which is usually welcome and encouraged) increases the credibility of your contributions. Disclosing usage of AI is also [required by the US Copyright Office](https://copyright.gov/ai/ai_policy_guidance.pdf).
 
 ---
 
