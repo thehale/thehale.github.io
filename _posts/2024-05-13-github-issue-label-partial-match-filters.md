@@ -13,7 +13,7 @@ On the new [GitHub Project Boards](https://docs.github.com/en/issues/planning-an
 ```
 label:"prefix*"  // i.e. Label starts with 
 label:"*suffix"  // i.e. Label ends with
-label:"*middle*" // i.e. Label contains
+label:"*contains*" // i.e. Label contains
 ```
 
 > NOTE: As of the publication of this article, partial label filtering is only available in GitHub's new project boards, not a repository's Issues tab.
