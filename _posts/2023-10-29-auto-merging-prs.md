@@ -30,7 +30,16 @@ To allow trusted actors (e.g. maintainers and priviledged GitHub Actions workflo
 
 ![A screenshot of the GitHub repository settings page, showing how to allow auto-merging pull requests](/assets/img/posts/auto_merging_prs/allow_auto_merge.png)
 
-Remember, this setting is a repository-level *feature toggle*. Individual pull requests still will not be auto-merged unless explicitly flagged otherwise (which we handle [later in this guide](#automatically-enable-auto-merge-for-pull-requests-from-trusted-authors)).
+For GitHub Actions to approve and merge pull requests you also need to grant permission in your repository's Actions settings page
+
+1. Go to `https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/settings/actions`
+2. Scroll down to the **Workflow permissions** section
+3. Enable **Allow GitHub Actions to create and approve pull requests**
+
+![A screenshot of the GitHub repository Actions settings page, showing how to allow auto-merging pull requests](/assets/img/posts/auto_merging_prs/allow_auto_merge_actions.png)
+
+Remember, these settings are a repository-level *feature toggle*. Individual pull requests still will not be auto-merged unless explicitly flagged otherwise (which we handle [later in this guide](#automatically-enable-auto-merge-for-pull-requests-from-trusted-authors)).
+
 
 ### GitHub Organizations: Allow GitHub Actions to create and approve pull requests
 
