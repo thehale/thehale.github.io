@@ -2,8 +2,11 @@
 layout: post
 title: "How to remove all stopped Docker containers"
 description: "A one-line shell command to clean up old, discarded containers"
-tags:
+category:
+ - How-To Guides
  - Docker
+tags:
+ - Bash
 ---
 
 _TL;DR_
