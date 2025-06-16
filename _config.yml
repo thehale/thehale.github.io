@@ -17,12 +17,12 @@ timezone: Arizona/Phoenix
 title: Joseph Hale # the main title
 
 tagline:  # it will display as the sub-title
-  - Senior Software Engineer
+  - Software Engineer
   - Musician
   - Speedcuber
 
 description: >- # used by seo meta and the atom feed
-  Senior Software Engineer, Musician, Speedcuber
+  Software Engineer, Musician, Speedcuber
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
