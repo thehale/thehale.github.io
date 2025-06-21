@@ -7,7 +7,7 @@ categories:
 tags:
  - Software Engineering
  - Test Driven Development
- - Continuous Integration
+ - CI/CD
  - Vue
  - Vitest
  - Storybook
