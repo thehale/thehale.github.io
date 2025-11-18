@@ -11,7 +11,7 @@ tags:
 _TL;DR_
 ```python
 def is_on_basic_multilingual_plane(char):
-    return int(char.encode().hex(), 16) <= int("FFFF", 16)
+    return int(char.encode().hex(), 16) <= 0xFFFF
 ```
 
 ## Backstory
@@ -59,7 +59,7 @@ char_ints = [int(c, 16) for c in char_bytes]
 Since the Basic Multilingual Plane covers binary values up to `0xFFFF`, we can now filter out any character with a higher numeric value.
 
 ```python
-char_ints_bmp = [c for c in char_ints if c <= int("FFFF", 16)]
+char_ints_bmp = [c for c in char_ints if c <= 0xFFFF]
 # [72, 101, 108, 108, 111, 32, 46, 116, 120, 116]
 ```
 
@@ -80,7 +80,7 @@ So, I refactored towards a function that flags whether or not a character is on 
 
 ```python
 def is_bmp(char):
-    return int(char.encode().hex(), 16) <= int("FFFF", 16)
+    return int(char.encode().hex(), 16) <= 0xFFFF
 ```
 
 Notice that the given character is encoded to binary and transformed to an integer before being compared to the largest code point on the Basic Multilingual Plane.
