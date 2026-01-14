@@ -1,6 +1,6 @@
 ---
 layout: post
-title: When Memes become Vibes become a Widget
+title: When Memes become Vibes become Learning
 tags:
  - Vibe Coding
  - Artificial Intelligence
@@ -9,8 +9,10 @@ tags:
  - Teaching
  - Mentorship
 image:
-  path: /assets/img/posts/when-memes-become-vibes-become-a-widget/vibe-cover.png
-  alt: A non-programmer's sketch of an iOS widget, and the result she eventually coded. 
+  path: /assets/img/posts/when-memes-become-vibes-become-learning/vibe-cover.png
+  alt: A non-programmer's sketch of an iOS widget, and the result she eventually coded.
+redirect_from:
+ - /posts/when-memes-become-vibes-become-learning/
 ---
 
 The last few months have been full of boom and bust stories about "vibe coding" -- the phenomenon where an individual can produce a working app by asking an AI tool to generate and edit code. Hypesters claim that professional programmers will soon be fully replaced by AI agents writing code, while experienced engineers quickly point out the risks and vulnerabilities that are rampant in the current crop of vibe-coded apps.
@@ -24,7 +26,7 @@ Here, I would like to cut through all the hype and anti-hype by sharing a real-l
     me: yes
     friend: ... has a calendar feature to ...
     me: no
-](/assets/img/posts/when-memes-become-vibes-become-a-widget/can-you-build-me-an-app-calendar.webp)](https://www.reddit.com/r/ProgrammerHumor/comments/zglb1l/yeah_sure_i_can_do_that_while_having_totally_no/)
+](/assets/img/posts/when-memes-become-vibes-become-learning/can-you-build-me-an-app-calendar.webp)](https://www.reddit.com/r/ProgrammerHumor/comments/zglb1l/yeah_sure_i_can_do_that_while_having_totally_no/)
 
 One of my good friends -- let's call her Amanda -- recently asked me the following question:
 
@@ -34,7 +36,7 @@ One of my good friends -- let's call her Amanda -- recently asked me the followi
 
 She even included a handwritten document with notes/mockups of exactly how she wanted the app/widget to look and behave.
 
-![](/assets/img/posts/when-memes-become-vibes-become-a-widget/design.jpg)
+![](/assets/img/posts/when-memes-become-vibes-become-learning/design.jpg)
 
 Unfortunately, Amanda doesn't know how to code. She's smart, technically savvy, and hardworking, but she has zero software development experience. As a result, five years ago her app idea wouldn't have made it beyond the paper where she wrote it down.
 
@@ -42,7 +44,7 @@ But, times have changed -- building a functional app is easier than ever thanks 
 
 Between finding subreddit posts similar to her ideas and asking Perplexity AI to write the code, Amanda started making rapid progress on her widget. Multiple times a day I would receive a new text with an updated screenshot showing a new feature/design improvement she had completed. With each new version, her excitement and enthusiasm for the project increased. Eventually, the widget satisfied her core needs -- even if it didn't look as pretty as her initial drawings. 
 
-![](/assets/img/posts/when-memes-become-vibes-become-a-widget/widgets.png)
+![](/assets/img/posts/when-memes-become-vibes-become-learning/widgets.png)
 
 
 A few days later, we sat down to review the code together. 
